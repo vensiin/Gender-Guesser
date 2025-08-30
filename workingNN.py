@@ -174,8 +174,8 @@ def main():
     user_measurements = (converyHW_array(my_height, my_weight))
 
     if(network.feed_forward(user_measurements) > 0.5):
-        print("You are female")
+        print("You are female!")
     if(network.feed_forward(user_measurements) < 0.5):
-        print("You are male")
+        print("You are male!")
 
 main()
